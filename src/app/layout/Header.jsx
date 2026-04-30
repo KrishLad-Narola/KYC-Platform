@@ -30,13 +30,11 @@ export const Header = () => {
       </div>
 
       <div className="flex items-center space-x-4">
-        {/* Notifications */}
         <Button variant="ghost" size="icon" className="relative">
           <Bell className="h-5 w-5" />
           <span className="absolute top-1 right-1 h-2 w-2 bg-red-500 rounded-full"></span>
         </Button>
 
-        {/* Theme Toggle */}
         <Button variant="ghost" size="icon" onClick={toggleTheme}>
           {theme === 'dark' ? (
             <Sun className="h-5 w-5" />
@@ -45,7 +43,6 @@ export const Header = () => {
           )}
         </Button>
 
-        {/* User Menu */}
         <DropdownMenu>
           <DropdownMenuTrigger asChild>
             <Button variant="ghost" className="flex items-center space-x-2">

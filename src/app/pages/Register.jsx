@@ -73,7 +73,7 @@ export const Register = () => {
                 id="name"
                 name="name"
                 type="text"
-                placeholder="John Doe"
+                placeholder="Krish Lad"
                 value={formData.name}
                 onChange={handleChange}
                 required
@@ -85,7 +85,7 @@ export const Register = () => {
                 id="email"
                 name="email"
                 type="email"
-                placeholder="john@example.com"
+                placeholder="kl@example.com"
                 value={formData.email}
                 onChange={handleChange}
                 required
@@ -97,7 +97,7 @@ export const Register = () => {
                 id="organizationName"
                 name="organizationName"
                 type="text"
-                placeholder="ACME Corp"
+                placeholder="ACMC Corp"
                 value={formData.organizationName}
                 onChange={handleChange}
                 required
