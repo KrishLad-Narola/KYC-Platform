@@ -46,7 +46,7 @@ export const Header = () => {
         <DropdownMenu>
           <DropdownMenuTrigger asChild>
             <Button variant="ghost" className="flex items-center space-x-2">
-              <div className="h-8 w-8 rounded-full bg-blue-600 flex items-center justify-center text-white font-medium">
+              <div className="h-8 w-8 rounded-full bg-blue-600 flex hover:bg-blue-500  items-center cursor-pointer justify-center text-white font-medium">
                 {user?.name?.charAt(0) || user?.email?.charAt(0).toUpperCase()}
               </div>
             </Button>

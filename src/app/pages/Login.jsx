@@ -93,37 +93,7 @@ export const Login = () => {
               Sign In
             </Button>
           </form>
-
-          <div className="mt-6 space-y-2">
-            <div className="relative">
-              <div className="absolute inset-0 flex items-center">
-                <span className="w-full border-t" />
-              </div>
-              <div className="relative flex justify-center text-xs uppercase">
-                <span className="bg-white dark:bg-gray-800 px-2 text-gray-500">
-                  Or try demo accounts
-                </span>
-              </div>
-            </div>
-            <div className="grid grid-cols-2 gap-2">
-              <Button
-                type="button"
-                variant="outline"
-                size="sm"
-                onClick={() => handleDemoLogin('admin')}
-              >
-                Admin Demo
-              </Button>
-              <Button
-                type="button"
-                variant="outline"
-                size="sm"
-                onClick={() => handleDemoLogin('org')}
-              >
-                Org Demo
-              </Button>
-            </div>
-          </div>
+   
 
           <div className="mt-6 text-center text-sm">
             <span className="text-gray-600 dark:text-gray-400">
